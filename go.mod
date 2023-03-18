@@ -1,8 +1,8 @@
-module github.com/sidiq20/faisal
+module github.com/sidiq200/faisal
 
 go 1.20
 
-require go.mongodb.org/mongo-driver v1.11.2
+require go.mongodb.org/mongo-driver v1.11.3
 
 require (
 	github.com/golang/snappy v0.0.1 // indirect
@@ -17,4 +17,3 @@ require (
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
 	golang.org/x/text v0.3.7 // indirect
 )
-//
