@@ -44,4 +44,10 @@ type Keahlian struct {
 	NamaKeahlian string           `bson:"nama_keahlian,omitempty" json:"nama_keahlian,omitempty"`
 	Tingkat    int               `bson:"tingkat,omitempty" json:"tingkat,omitempty"`
 }
+
+type Tanggal struct {
+	Tahun  string `bson:"tahun,omitempty" json:"tahun,omitempty"`
+	Bulan  string `bson:"bulan,omitempty" json:"bulan,omitempty"`
+	Jumlah string `bson:"jumlah,omitempty" json:"jumlah,omitempty"`
+}
 //upload
