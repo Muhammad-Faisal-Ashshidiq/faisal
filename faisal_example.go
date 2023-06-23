@@ -14,6 +14,9 @@ type UserProfil struct {
 type ProfilU struct {
 	ID        primitive.ObjectID `bson:"_id,omitempty" json:"_id,omitempty"`
 	UserID    primitive.ObjectID `bson:"user_id,omitempty" json:"user_id,omitempty"`
+	Username  string			 `bson:"username,omitempty" json:"username,omitempty"`
+	Full_Name string			 `bson:"full_name,omitempty" json:"full_name,omitempty"`
+	Email 	  string			 `bson:"email,omitempty" json:"email,omitempty"`
 	Gambar    string             `bson:"gambar,omitempty" json:"gambar,omitempty"`
 	Bio       string             `bson:"bio,omitempty" json:"bio,omitempty"`
 	Alamat    string             `bson:"alamat,omitempty" json:"alamat,omitempty"`
